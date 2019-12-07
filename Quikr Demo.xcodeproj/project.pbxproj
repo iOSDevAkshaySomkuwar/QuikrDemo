@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AEFA7EBF442C29F74AD37D8 /* Pods_Quikr_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1574CFB135ABAAD812092E /* Pods_Quikr_Demo.framework */; };
+		7A94D092239A862000325DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D091239A862000325DAE /* AppDelegate.swift */; };
+		7A94D094239A862000325DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D093239A862000325DAE /* SceneDelegate.swift */; };
+		7A94D096239A862000325DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D095239A862000325DAE /* ViewController.swift */; };
+		7A94D099239A862000325DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A94D097239A862000325DAE /* Main.storyboard */; };
+		7A94D09B239A862400325DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A94D09A239A862400325DAE /* Assets.xcassets */; };
+		7A94D09E239A862400325DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A94D09C239A862400325DAE /* LaunchScreen.storyboard */; };
+		7A94D0A9239A862400325DAE /* Quikr_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D0A8239A862400325DAE /* Quikr_DemoTests.swift */; };
+		7A94D0B4239A862400325DAE /* Quikr_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D0B3239A862400325DAE /* Quikr_DemoUITests.swift */; };
+		7A94D0C2239A88BE00325DAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A94D0C1239A88BE00325DAE /* GoogleService-Info.plist */; };
+		7A94D0C7239A8B1B00325DAE /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D0C6239A8B1B00325DAE /* DashboardVC.swift */; };
+		7A94D0C9239A8B2900325DAE /* PostAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D0C8239A8B2900325DAE /* PostAddVC.swift */; };
+		7A94D0CB239A8C4400325DAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D0CA239A8C4400325DAE /* Extensions.swift */; };
+		7AA4F856239BCEA300D4EE65 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4F855239BCEA300D4EE65 /* Model.swift */; };
+		BD1F408665177FC2A7F5A29B /* Pods_Quikr_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAA0A6466816647FF1A20E6 /* Pods_Quikr_DemoTests.framework */; };
+		C2A166BD2554AA834554102A /* Pods_Quikr_Demo_Quikr_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C80D6A0850119C942E50B8 /* Pods_Quikr_Demo_Quikr_DemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A94D0A5239A862400325DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A94D086239A862000325DAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A94D08D239A862000325DAE;
+			remoteInfo = "Quikr Demo";
+		};
+		7A94D0B0239A862400325DAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A94D086239A862000325DAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A94D08D239A862000325DAE;
+			remoteInfo = "Quikr Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BFA26D28751998CAD520767 /* Pods-Quikr Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr Demo.debug.xcconfig"; path = "Target Support Files/Pods-Quikr Demo/Pods-Quikr Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		1C1574CFB135ABAAD812092E /* Pods_Quikr_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quikr_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C80D6A0850119C942E50B8 /* Pods_Quikr_Demo_Quikr_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quikr_Demo_Quikr_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED88AEF2DE7AD700B94BA17 /* Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Quikr Demo-Quikr DemoUITests/Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A94D08E239A862000325DAE /* Quikr Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quikr Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A94D091239A862000325DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A94D093239A862000325DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A94D095239A862000325DAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A94D098239A862000325DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A94D09A239A862400325DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A94D09D239A862400325DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A94D09F239A862400325DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A94D0A4239A862400325DAE /* Quikr DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quikr DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A94D0A8239A862400325DAE /* Quikr_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quikr_DemoTests.swift; sourceTree = "<group>"; };
+		7A94D0AA239A862400325DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A94D0AF239A862400325DAE /* Quikr DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quikr DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A94D0B3239A862400325DAE /* Quikr_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quikr_DemoUITests.swift; sourceTree = "<group>"; };
+		7A94D0B5239A862400325DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A94D0C1239A88BE00325DAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A94D0C6239A8B1B00325DAE /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		7A94D0C8239A8B2900325DAE /* PostAddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAddVC.swift; sourceTree = "<group>"; };
+		7A94D0CA239A8C4400325DAE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7AA4F855239BCEA300D4EE65 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C153E5D08ACB2D279CC49132 /* Pods-Quikr Demo-Quikr DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr Demo-Quikr DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Quikr Demo-Quikr DemoUITests/Pods-Quikr Demo-Quikr DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5D0A03866E316B0A3FF35F8 /* Pods-Quikr Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr Demo.release.xcconfig"; path = "Target Support Files/Pods-Quikr Demo/Pods-Quikr Demo.release.xcconfig"; sourceTree = "<group>"; };
+		CCAA0A6466816647FF1A20E6 /* Pods_Quikr_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quikr_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC212C9BE04DE64CD101CFB0 /* Pods-Quikr DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Quikr DemoTests/Pods-Quikr DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7319886998EDDBD9FFBEA80 /* Pods-Quikr DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-Quikr DemoTests/Pods-Quikr DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A94D08B239A862000325DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AEFA7EBF442C29F74AD37D8 /* Pods_Quikr_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94D0A1239A862400325DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F408665177FC2A7F5A29B /* Pods_Quikr_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94D0AC239A862400325DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A166BD2554AA834554102A /* Pods_Quikr_Demo_Quikr_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DBF708E53954D13E990013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C1574CFB135ABAAD812092E /* Pods_Quikr_Demo.framework */,
+				35C80D6A0850119C942E50B8 /* Pods_Quikr_Demo_Quikr_DemoUITests.framework */,
+				CCAA0A6466816647FF1A20E6 /* Pods_Quikr_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A94D085239A862000325DAE = {
+			isa = PBXGroup;
+			children = (
+				7A94D090239A862000325DAE /* Quikr Demo */,
+				7A94D0A7239A862400325DAE /* Quikr DemoTests */,
+				7A94D0B2239A862400325DAE /* Quikr DemoUITests */,
+				7A94D08F239A862000325DAE /* Products */,
+				E3313C226D4739CEB6BAAF56 /* Pods */,
+				72DBF708E53954D13E990013 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A94D08F239A862000325DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A94D08E239A862000325DAE /* Quikr Demo.app */,
+				7A94D0A4239A862400325DAE /* Quikr DemoTests.xctest */,
+				7A94D0AF239A862400325DAE /* Quikr DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A94D090239A862000325DAE /* Quikr Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7A94D0C5239A8AEE00325DAE /* Model */,
+				7A94D0C4239A8AE800325DAE /* View */,
+				7A94D0C3239A8ADA00325DAE /* Controller */,
+				7A94D091239A862000325DAE /* AppDelegate.swift */,
+				7A94D093239A862000325DAE /* SceneDelegate.swift */,
+				7A94D095239A862000325DAE /* ViewController.swift */,
+				7A94D097239A862000325DAE /* Main.storyboard */,
+				7A94D09A239A862400325DAE /* Assets.xcassets */,
+				7A94D09C239A862400325DAE /* LaunchScreen.storyboard */,
+				7A94D09F239A862400325DAE /* Info.plist */,
+				7A94D0C1239A88BE00325DAE /* GoogleService-Info.plist */,
+				7A94D0CA239A8C4400325DAE /* Extensions.swift */,
+			);
+			path = "Quikr Demo";
+			sourceTree = "<group>";
+		};
+		7A94D0A7239A862400325DAE /* Quikr DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A94D0A8239A862400325DAE /* Quikr_DemoTests.swift */,
+				7A94D0AA239A862400325DAE /* Info.plist */,
+			);
+			path = "Quikr DemoTests";
+			sourceTree = "<group>";
+		};
+		7A94D0B2239A862400325DAE /* Quikr DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A94D0B3239A862400325DAE /* Quikr_DemoUITests.swift */,
+				7A94D0B5239A862400325DAE /* Info.plist */,
+			);
+			path = "Quikr DemoUITests";
+			sourceTree = "<group>";
+		};
+		7A94D0C3239A8ADA00325DAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A94D0C6239A8B1B00325DAE /* DashboardVC.swift */,
+				7A94D0C8239A8B2900325DAE /* PostAddVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A94D0C4239A8AE800325DAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A94D0C5239A8AEE00325DAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4F855239BCEA300D4EE65 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3313C226D4739CEB6BAAF56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BFA26D28751998CAD520767 /* Pods-Quikr Demo.debug.xcconfig */,
+				C5D0A03866E316B0A3FF35F8 /* Pods-Quikr Demo.release.xcconfig */,
+				5ED88AEF2DE7AD700B94BA17 /* Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig */,
+				C153E5D08ACB2D279CC49132 /* Pods-Quikr Demo-Quikr DemoUITests.release.xcconfig */,
+				F7319886998EDDBD9FFBEA80 /* Pods-Quikr DemoTests.debug.xcconfig */,
+				DC212C9BE04DE64CD101CFB0 /* Pods-Quikr DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A94D08D239A862000325DAE /* Quikr Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A94D0B8239A862400325DAE /* Build configuration list for PBXNativeTarget "Quikr Demo" */;
+			buildPhases = (
+				A53100640BD2FC7010962B93 /* [CP] Check Pods Manifest.lock */,
+				7A94D08A239A862000325DAE /* Sources */,
+				7A94D08B239A862000325DAE /* Frameworks */,
+				7A94D08C239A862000325DAE /* Resources */,
+				92126BCE995D1E61727DA338 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quikr Demo";
+			productName = "Quikr Demo";
+			productReference = 7A94D08E239A862000325DAE /* Quikr Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A94D0A3239A862400325DAE /* Quikr DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A94D0BB239A862400325DAE /* Build configuration list for PBXNativeTarget "Quikr DemoTests" */;
+			buildPhases = (
+				DE41048A8CE66A74672C7EC4 /* [CP] Check Pods Manifest.lock */,
+				7A94D0A0239A862400325DAE /* Sources */,
+				7A94D0A1239A862400325DAE /* Frameworks */,
+				7A94D0A2239A862400325DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A94D0A6239A862400325DAE /* PBXTargetDependency */,
+			);
+			name = "Quikr DemoTests";
+			productName = "Quikr DemoTests";
+			productReference = 7A94D0A4239A862400325DAE /* Quikr DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A94D0AE239A862400325DAE /* Quikr DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A94D0BE239A862400325DAE /* Build configuration list for PBXNativeTarget "Quikr DemoUITests" */;
+			buildPhases = (
+				ACB025D2A5B8E9D632ABBA83 /* [CP] Check Pods Manifest.lock */,
+				7A94D0AB239A862400325DAE /* Sources */,
+				7A94D0AC239A862400325DAE /* Frameworks */,
+				7A94D0AD239A862400325DAE /* Resources */,
+				A13F11E3E276CB161A0E0C2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A94D0B1239A862400325DAE /* PBXTargetDependency */,
+			);
+			name = "Quikr DemoUITests";
+			productName = "Quikr DemoUITests";
+			productReference = 7A94D0AF239A862400325DAE /* Quikr DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A94D086239A862000325DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Akshay Somkuwar";
+				TargetAttributes = {
+					7A94D08D239A862000325DAE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7A94D0A3239A862400325DAE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7A94D08D239A862000325DAE;
+					};
+					7A94D0AE239A862400325DAE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7A94D08D239A862000325DAE;
+					};
+				};
+			};
+			buildConfigurationList = 7A94D089239A862000325DAE /* Build configuration list for PBXProject "Quikr Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A94D085239A862000325DAE;
+			productRefGroup = 7A94D08F239A862000325DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A94D08D239A862000325DAE /* Quikr Demo */,
+				7A94D0A3239A862400325DAE /* Quikr DemoTests */,
+				7A94D0AE239A862400325DAE /* Quikr DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A94D08C239A862000325DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A94D09E239A862400325DAE /* LaunchScreen.storyboard in Resources */,
+				7A94D0C2239A88BE00325DAE /* GoogleService-Info.plist in Resources */,
+				7A94D09B239A862400325DAE /* Assets.xcassets in Resources */,
+				7A94D099239A862000325DAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94D0A2239A862400325DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94D0AD239A862400325DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92126BCE995D1E61727DA338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quikr Demo/Pods-Quikr Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quikr Demo/Pods-Quikr Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quikr Demo/Pods-Quikr Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13F11E3E276CB161A0E0C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quikr Demo-Quikr DemoUITests/Pods-Quikr Demo-Quikr DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quikr Demo-Quikr DemoUITests/Pods-Quikr Demo-Quikr DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quikr Demo-Quikr DemoUITests/Pods-Quikr Demo-Quikr DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53100640BD2FC7010962B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quikr Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB025D2A5B8E9D632ABBA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quikr Demo-Quikr DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE41048A8CE66A74672C7EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quikr DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A94D08A239A862000325DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA4F856239BCEA300D4EE65 /* Model.swift in Sources */,
+				7A94D096239A862000325DAE /* ViewController.swift in Sources */,
+				7A94D0CB239A8C4400325DAE /* Extensions.swift in Sources */,
+				7A94D0C7239A8B1B00325DAE /* DashboardVC.swift in Sources */,
+				7A94D092239A862000325DAE /* AppDelegate.swift in Sources */,
+				7A94D0C9239A8B2900325DAE /* PostAddVC.swift in Sources */,
+				7A94D094239A862000325DAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94D0A0239A862400325DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A94D0A9239A862400325DAE /* Quikr_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A94D0AB239A862400325DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A94D0B4239A862400325DAE /* Quikr_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A94D0A6239A862400325DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A94D08D239A862000325DAE /* Quikr Demo */;
+			targetProxy = 7A94D0A5239A862400325DAE /* PBXContainerItemProxy */;
+		};
+		7A94D0B1239A862400325DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A94D08D239A862000325DAE /* Quikr Demo */;
+			targetProxy = 7A94D0B0239A862400325DAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A94D097239A862000325DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A94D098239A862000325DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A94D09C239A862400325DAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A94D09D239A862400325DAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A94D0B6239A862400325DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A94D0B7239A862400325DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A94D0B9239A862400325DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BFA26D28751998CAD520767 /* Pods-Quikr Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
+				INFOPLIST_FILE = "Quikr Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A94D0BA239A862400325DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D0A03866E316B0A3FF35F8 /* Pods-Quikr Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
+				INFOPLIST_FILE = "Quikr Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A94D0BC239A862400325DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7319886998EDDBD9FFBEA80 /* Pods-Quikr DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
+				INFOPLIST_FILE = "Quikr DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quikr Demo.app/Quikr Demo";
+			};
+			name = Debug;
+		};
+		7A94D0BD239A862400325DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC212C9BE04DE64CD101CFB0 /* Pods-Quikr DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
+				INFOPLIST_FILE = "Quikr DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quikr Demo.app/Quikr Demo";
+			};
+			name = Release;
+		};
+		7A94D0BF239A862400325DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED88AEF2DE7AD700B94BA17 /* Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
+				INFOPLIST_FILE = "Quikr DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quikr Demo";
+			};
+			name = Debug;
+		};
+		7A94D0C0239A862400325DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C153E5D08ACB2D279CC49132 /* Pods-Quikr Demo-Quikr DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
+				INFOPLIST_FILE = "Quikr DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quikr Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A94D089239A862000325DAE /* Build configuration list for PBXProject "Quikr Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A94D0B6239A862400325DAE /* Debug */,
+				7A94D0B7239A862400325DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A94D0B8239A862400325DAE /* Build configuration list for PBXNativeTarget "Quikr Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A94D0B9239A862400325DAE /* Debug */,
+				7A94D0BA239A862400325DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A94D0BB239A862400325DAE /* Build configuration list for PBXNativeTarget "Quikr DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A94D0BC239A862400325DAE /* Debug */,
+				7A94D0BD239A862400325DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A94D0BE239A862400325DAE /* Build configuration list for PBXNativeTarget "Quikr DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A94D0BF239A862400325DAE /* Debug */,
+				7A94D0C0239A862400325DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A94D086239A862000325DAE /* Project object */;
+}

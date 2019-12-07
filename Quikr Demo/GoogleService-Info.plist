@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>656984943567-a6i0j9e0mbf1spc4l9fuq7jlg46fr2ru.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.656984943567-a6i0j9e0mbf1spc4l9fuq7jlg46fr2ru</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_b-3xUAiAqx1jNMj7QR2xBvSbEHnvCHo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>656984943567</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bbc.quikr.demo</string>
+	<key>PROJECT_ID</key>
+	<string>quikrdemo-aa39b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quikrdemo-aa39b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:656984943567:ios:c85126920f6d71c3ab80ba</string>
+	<key>DATABASE_URL</key>
+	<string>https://quikrdemo-aa39b.firebaseio.com</string>
+</dict>
+</plist>
