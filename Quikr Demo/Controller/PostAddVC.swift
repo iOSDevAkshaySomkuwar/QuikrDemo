@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseFirestore
 import CropViewController
+import mobileffmpeg
 
 class PostAddVC: UIViewController {
     
@@ -110,7 +111,7 @@ class PostAddVC: UIViewController {
             make.left.equalTo(titleTF.snp.left).offset(0)
             make.right.equalTo(titleTF.snp.right).offset(0)
             make.top.equalTo(uploadImageTF.snp.bottom).offset(10)
-            make.height.equalTo(100)
+            make.height.equalTo(400)
         }
         
         uploadImageTF.snp.makeConstraints { (make) in
@@ -164,7 +165,31 @@ class PostAddVC: UIViewController {
 
     }
     
-
+    func testFFMPEG(data: String) {
+//        MobileFFmpeg.execute("ffmpeg -i sampleOne.mp4 sample.mp3")
+        let command = """
+\(data)
+"""
+        MobileFFmpeg.execute(command)
+        let commandOutput = MobileFFmpeg.getLastCommandOutput()
+        print(commandOutput)
+        descriptionTV.text = commandOutput!
+//        let b = FileManager.default.urls(for: .documentDirectory,
+//        in: .userDomainMask)
+//        print(b)
+                
+        //        Bundle.main.url(forResource: audioFileName, withExtension: "mp4")
+        //        if let audioFilePath = Bundle.main.path(forResource: audioFileName, ofType: "mp4") {
+        //            print(audioFilePath)
+        //            let audioFileName = "sampleOne"
+        //        let mediaInfo = MobileFFmpeg.getMediaInformation(String(describing: audioFilePath))
+        //        print(mediaInfo)
+        //            let commandCode = MobileFFmpeg.getLastReturnCode()
+        //            print(commandCode)
+        
+        //        }
+    }
+    
 }
 
 

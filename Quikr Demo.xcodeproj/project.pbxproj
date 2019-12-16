@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0AEFA7EBF442C29F74AD37D8 /* Pods_Quikr_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1574CFB135ABAAD812092E /* Pods_Quikr_Demo.framework */; };
+		7A2AD04223A10868005F13DD /* ListViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2AD04123A10868005F13DD /* ListViewVC.swift */; };
+		7A425655239FDA4C00722495 /* FFMPEGTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A425654239FDA4C00722495 /* FFMPEGTestVC.swift */; };
+		7A57717123A2117B00B232C9 /* VideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57717023A2117B00B232C9 /* VideoDetailVC.swift */; };
+		7A57717323A2707A00B232C9 /* AddVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57717223A2707A00B232C9 /* AddVideoVC.swift */; };
+		7A59B241239E90F3002B5878 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A59B23F239E86B7002B5878 /* sample.mp4 */; };
+		7A59B246239E9F1A002B5878 /* Examples in Resources */ = {isa = PBXBuildFile; fileRef = 7A59B243239E9F14002B5878 /* Examples */; };
+		7A59B247239E9F1A002B5878 /* SwiftFFmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A59B244239E9F17002B5878 /* SwiftFFmpeg */; };
+		7A59B248239E9F1A002B5878 /* CFFmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7A59B245239E9F1A002B5878 /* CFFmpeg */; };
+		7A59B24A239E9FDE002B5878 /* sampleOne.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A59B249239E9FD2002B5878 /* sampleOne.mp4 */; };
 		7A94D092239A862000325DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D091239A862000325DAE /* AppDelegate.swift */; };
 		7A94D094239A862000325DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D093239A862000325DAE /* SceneDelegate.swift */; };
 		7A94D096239A862000325DAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94D095239A862000325DAE /* ViewController.swift */; };
@@ -47,6 +56,16 @@
 		1C1574CFB135ABAAD812092E /* Pods_Quikr_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quikr_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C80D6A0850119C942E50B8 /* Pods_Quikr_Demo_Quikr_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quikr_Demo_Quikr_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED88AEF2DE7AD700B94BA17 /* Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Quikr Demo-Quikr DemoUITests/Pods-Quikr Demo-Quikr DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2AD04123A10868005F13DD /* ListViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewVC.swift; sourceTree = "<group>"; };
+		7A425654239FDA4C00722495 /* FFMPEGTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFMPEGTestVC.swift; sourceTree = "<group>"; };
+		7A49377B239E764B00052ED9 /* Quikr Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quikr Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A57717023A2117B00B232C9 /* VideoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailVC.swift; sourceTree = "<group>"; };
+		7A57717223A2707A00B232C9 /* AddVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoVC.swift; sourceTree = "<group>"; };
+		7A59B23F239E86B7002B5878 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		7A59B243239E9F14002B5878 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = "<group>"; };
+		7A59B244239E9F17002B5878 /* SwiftFFmpeg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftFFmpeg; sourceTree = "<group>"; };
+		7A59B245239E9F1A002B5878 /* CFFmpeg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CFFmpeg; sourceTree = "<group>"; };
+		7A59B249239E9FD2002B5878 /* sampleOne.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleOne.mp4; sourceTree = "<group>"; };
 		7A94D08E239A862000325DAE /* Quikr Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quikr Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A94D091239A862000325DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A94D093239A862000325DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,12 +133,14 @@
 		7A94D085239A862000325DAE = {
 			isa = PBXGroup;
 			children = (
+				7A59B23F239E86B7002B5878 /* sample.mp4 */,
 				7A94D090239A862000325DAE /* Quikr Demo */,
 				7A94D0A7239A862400325DAE /* Quikr DemoTests */,
 				7A94D0B2239A862400325DAE /* Quikr DemoUITests */,
 				7A94D08F239A862000325DAE /* Products */,
 				E3313C226D4739CEB6BAAF56 /* Pods */,
 				72DBF708E53954D13E990013 /* Frameworks */,
+				7A49377B239E764B00052ED9 /* Quikr Demo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +157,10 @@
 		7A94D090239A862000325DAE /* Quikr Demo */ = {
 			isa = PBXGroup;
 			children = (
+				7A59B249239E9FD2002B5878 /* sampleOne.mp4 */,
+				7A59B245239E9F1A002B5878 /* CFFmpeg */,
+				7A59B243239E9F14002B5878 /* Examples */,
+				7A59B244239E9F17002B5878 /* SwiftFFmpeg */,
 				7A94D0C5239A8AEE00325DAE /* Model */,
 				7A94D0C4239A8AE800325DAE /* View */,
 				7A94D0C3239A8ADA00325DAE /* Controller */,
@@ -175,6 +200,10 @@
 			children = (
 				7A94D0C6239A8B1B00325DAE /* DashboardVC.swift */,
 				7A94D0C8239A8B2900325DAE /* PostAddVC.swift */,
+				7A425654239FDA4C00722495 /* FFMPEGTestVC.swift */,
+				7A2AD04123A10868005F13DD /* ListViewVC.swift */,
+				7A57717023A2117B00B232C9 /* VideoDetailVC.swift */,
+				7A57717223A2707A00B232C9 /* AddVideoVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,6 +309,7 @@
 				TargetAttributes = {
 					7A94D08D239A862000325DAE = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					7A94D0A3239A862400325DAE = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -316,10 +346,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A59B24A239E9FDE002B5878 /* sampleOne.mp4 in Resources */,
+				7A59B241239E90F3002B5878 /* sample.mp4 in Resources */,
+				7A59B247239E9F1A002B5878 /* SwiftFFmpeg in Resources */,
+				7A59B246239E9F1A002B5878 /* Examples in Resources */,
 				7A94D09E239A862400325DAE /* LaunchScreen.storyboard in Resources */,
 				7A94D0C2239A88BE00325DAE /* GoogleService-Info.plist in Resources */,
 				7A94D09B239A862400325DAE /* Assets.xcassets in Resources */,
 				7A94D099239A862000325DAE /* Main.storyboard in Resources */,
+				7A59B248239E9F1A002B5878 /* CFFmpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,12 +483,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA4F856239BCEA300D4EE65 /* Model.swift in Sources */,
+				7A57717323A2707A00B232C9 /* AddVideoVC.swift in Sources */,
+				7A2AD04223A10868005F13DD /* ListViewVC.swift in Sources */,
 				7A94D096239A862000325DAE /* ViewController.swift in Sources */,
 				7A94D0CB239A8C4400325DAE /* Extensions.swift in Sources */,
+				7A425655239FDA4C00722495 /* FFMPEGTestVC.swift in Sources */,
 				7A94D0C7239A8B1B00325DAE /* DashboardVC.swift in Sources */,
 				7A94D092239A862000325DAE /* AppDelegate.swift in Sources */,
 				7A94D0C9239A8B2900325DAE /* PostAddVC.swift in Sources */,
 				7A94D094239A862000325DAE /* SceneDelegate.swift in Sources */,
+				7A57717123A2117B00B232C9 /* VideoDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -612,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -627,6 +666,7 @@
 			baseConfigurationReference = 0BFA26D28751998CAD520767 /* Pods-Quikr Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
 				INFOPLIST_FILE = "Quikr Demo/Info.plist";
@@ -636,6 +676,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quikr Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -646,6 +688,7 @@
 			baseConfigurationReference = C5D0A03866E316B0A3FF35F8 /* Pods-Quikr Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2LR2Z2SB2G;
 				INFOPLIST_FILE = "Quikr Demo/Info.plist";
@@ -655,6 +698,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bbc.quikr.demo.Quikr-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Quikr Demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -23,6 +23,9 @@ PODS:
   - Firebase/Messaging (6.10.0):
     - Firebase/CoreOnly
     - FirebaseMessaging (~> 4.1.6)
+  - Firebase/Storage (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.4.1)
   - FirebaseAnalytics (6.1.3):
     - FirebaseCore (~> 6.3)
     - FirebaseInstanceID (~> 4.2)
@@ -78,6 +81,11 @@ PODS:
     - GoogleUtilities/Reachability (~> 6.2)
     - GoogleUtilities/UserDefaults (~> 6.2)
     - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseStorage (3.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FlexibleAVCapture (2.2.5)
   - GoogleAppMeasurement (6.1.3):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -122,21 +130,28 @@ PODS:
     - gRPC-Core/Interface (= 1.21.0)
     - nanopb (~> 0.3)
   - gRPC-Core/Interface (1.21.0)
+  - GTMSessionFetcher/Core (1.2.2)
   - IQKeyboardManagerSwift (6.5.1)
   - leveldb-library (1.22)
+  - mobile-ffmpeg-full (4.3)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.10.0)
+  - PryntTrimmerView (4.0.0)
   - SDWebImage (4.4.7):
     - SDWebImage/Core (= 4.4.7)
   - SDWebImage/Core (4.4.7)
   - SnapKit (5.0.1)
+  - SteviaLayout (4.7.3)
   - SwiftMessages (7.0.1):
     - SwiftMessages/App (= 7.0.1)
   - SwiftMessages/App (7.0.1)
+  - YPImagePicker (4.1.3):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.7.3)
 
 DEPENDENCIES:
   - Alamofire
@@ -146,10 +161,14 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Firestore
   - Firebase/Messaging
+  - Firebase/Storage
+  - FlexibleAVCapture
   - IQKeyboardManagerSwift
+  - mobile-ffmpeg-full (~> 4.3)
   - SDWebImage (~> 4.0)
   - SnapKit
   - SwiftMessages
+  - YPImagePicker
 
 SPEC REPOS:
   trunk:
@@ -167,19 +186,26 @@ SPEC REPOS:
     - FirebaseFirestore
     - FirebaseInstanceID
     - FirebaseMessaging
+    - FirebaseStorage
+    - FlexibleAVCapture
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
+    - GTMSessionFetcher
     - IQKeyboardManagerSwift
     - leveldb-library
+    - mobile-ffmpeg-full
     - nanopb
     - Protobuf
+    - PryntTrimmerView
     - SDWebImage
     - SnapKit
+    - SteviaLayout
     - SwiftMessages
+    - YPImagePicker
 
 SPEC CHECKSUMS:
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
@@ -196,20 +222,27 @@ SPEC CHECKSUMS:
   FirebaseFirestore: 5a9e9a14305336e8d1a4f915a45ecf0f5d6dcaec
   FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
   FirebaseMessaging: 35edef69a6af9b34e9e44624089f054be3c09089
+  FirebaseStorage: 046abe9ac4e2a1a0e47d72f536490ffa50896632
+  FlexibleAVCapture: 0e24d80f5dc48b77604613bdca39eed32222e881
   GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
   GoogleDataTransport: f6fe28f43e3a300736854260961ad485b473edc5
   GoogleDataTransportCCTSupport: 862418a8cdda520c4dd4af83a756d04efe4a6990
   GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
   "gRPC-C++": 9dfe7b44821e7b3e44aacad2af29d2c21f7cde83
   gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
   IQKeyboardManagerSwift: 9ac7524fad9f9fe9a3b98c927e7772471ca546d2
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  mobile-ffmpeg-full: af38edede256cb1d4fcbf10dddef39bf529ecd50
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
   SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  YPImagePicker: 7a34eabd0ef544ae8fbf9785c3df9ec5bbf242e3
 
-PODFILE CHECKSUM: b18e8d9dee9d93614952af7639c64d2d17d7047c
+PODFILE CHECKSUM: 5c0112008de54567421e9213f70abcaf7fd6ff18
 
 COCOAPODS: 1.8.3

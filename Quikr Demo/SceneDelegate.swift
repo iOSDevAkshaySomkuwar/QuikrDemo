@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         FirebaseApp.configure()
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        let mainController = DashboardVC() as! DashboardVC
+        let mainController = ListViewVC() as! ListViewVC
         let navigationController = UINavigationController(rootViewController: mainController)
         navigationController.setNavigationBarHidden(false, animated: true)
         window?.rootViewController = navigationController

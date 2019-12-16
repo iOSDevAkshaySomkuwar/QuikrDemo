@@ -12,9 +12,13 @@ target 'Quikr Demo' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Messaging'
   pod 'Firebase/Analytics'
+  pod 'Firebase/Storage'
   pod 'SwiftMessages'
   pod 'CropViewController'
   pod 'IQKeyboardManagerSwift'
+  pod 'mobile-ffmpeg-full', '~> 4.3'
+  pod 'FlexibleAVCapture'
+  pod 'YPImagePicker'
 
   # Pods for Quikr Demo
 
